@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  font-weight: 500;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+nav button {
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+  padding: 15px 20px;
+  background: white;
+  border: 1px solid red;
+  color: red;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+nav button:hover {
+  transform: scale(1.05);
+  background-color: red;
+  color: white;
+}
+.logo {
+  width: 200px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-items {
+  display: flex;
+}
